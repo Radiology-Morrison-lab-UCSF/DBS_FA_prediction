@@ -1,6 +1,6 @@
-# DBS Outcome Prediction Using Whole-brain and Atlas-based Tract-Specific Fractional Anistropy
+# DBS Outcome Prediction Using Diffusion MRI Fractional Anistropy
 
-This repository includes anonymized data and code for doing feature extraction on regional white matter fractional anistropy measures and predicting Parkinson's medication change with DBS. The code is written in Python. The repository is part of ongoing research in the Radiology-Morrison-lab-UCSF. 
+This repository includes anonymized data and code for doing feature extraction on regional (whole-brain white matter, atlas-based tract-specific) fractional anistropy measures and predicting Parkinson's medication change with DBS. The code is written in Python. The repository is part of ongoing research in the Radiology-Morrison-lab-UCSF. 
 
 ## Contents
 
