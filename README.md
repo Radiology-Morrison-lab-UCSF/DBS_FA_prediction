@@ -1,14 +1,19 @@
-# DBS Outcome Prediction Using Diffusion MRI Fractional Anistropy
+# White matter FA predicts DBS medication change in Parkinson's disease
 
-This repository includes anonymized data and code for doing feature extraction on regional (whole-brain white matter, atlas-based tract-specific) fractional anistropy measures and predicting Parkinson's medication change with DBS. The code is written in Python. The repository is part of ongoing research in the Radiology-Morrison-lab-UCSF. 
+Code and processed data for the manuscript *"White matter fractional anisotropy predicts Parkinson's disease medication changes with deep brain stimulation."*
 
 ## Contents
+- `FA_DBS_analysis.ipynb` — reproduces all analyses and figures in the paper.
+- `DBS_FA_cohort_data.xlsx` — processed cohort data (`data` sheet) with column definitions (`data_dictionary` sheet).
 
-* Coming soon
+## Data
+146 preoperative cases; the notebook restricts to the 143 STN/GPi analytic cohort (VIM cases excluded). One subject is missing parahippocampal cingulum (CGH) FA. no protected health information is included. Units and encodings are in the `data_dictionary` sheet.
 
-## Data De-Identification
+## Usage
+Python 3.9+ with `numpy`, `pandas`, `scipy`, `scikit-learn`, `matplotlib`, `openpyxl`. Place the xlsx beside the notebook and run all cells. Figures are written to `figures/`.
 
-* Coming soon
+## Notes
+- LASSO stability selection is seeded (`random_state=42`) for reproducibility.
 
 ## Licenses
 
