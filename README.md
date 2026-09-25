@@ -7,6 +7,7 @@ Code and processed data for the manuscript *"White matter fractional anisotropy 
 If you use code or materials from this repository, please cite our article:
 
 Schoen, D.\*, Shih, P.\*, West, L., et al. White matter fractional anisotropy predicts Parkinson's disease medication changes with deep brain stimulation. *Parkinsonism & Related Disorders*, 108999 (2026). https://doi.org/10.1016/j.parkreldis.2026.108999
+
 \*These authors contributed equally.
 
 ## Contents
